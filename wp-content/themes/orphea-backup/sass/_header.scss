@@ -1,0 +1,57 @@
+
+#masthead{
+
+	// height: rem(445px); 
+	// height: rem(540px); 
+	background-color: $second_main_color;
+	.slider{
+		height: 100%;
+		width: 100%;
+	}
+
+	.menu_logo_container{
+		z-index: 99;
+		max-width: 100%;
+		@include position(absolute, 0, initial, initial, 0);
+		width: rem(320px);
+		height: rem(77px);
+		background-color: $white;
+		border-bottom-right-radius: rem(20px);
+		@include flex(flex-start, flex-start, row);
+		.logo{
+			img{
+				height: 100%;
+			}
+		}
+
+
+	}
+
+	.citation{
+		z-index: 99;
+		@include position(absolute, rem(77px), initial, initial, rem(77px));
+		max-width: 100%;
+		width: rem(620px); 
+		padding: rem(30px);
+		background-color: rgba(133, 23, 93, .8);
+		color: $white;
+		border-bottom-right-radius: rem(20px);
+		.bredcrumb{
+			font-size: rem(12.5px);  
+			line-height: rem(15.5px);
+			font-weight: 700;
+			font-family: $font-family-sans-serif;
+		}
+		.titre{
+			font-size: rem(42.5px);  
+			line-height: rem(45.5px);
+			padding: rem(20px) 0;
+			font-weight: 700;
+			font-family: $font-family-sans-serif-second;
+		} 
+	}
+
+
+	
+
+}

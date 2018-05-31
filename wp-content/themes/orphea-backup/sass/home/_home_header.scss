@@ -1,0 +1,44 @@
+.home_header{
+
+	#slider_site{
+		position: relative;
+
+		.owl-nav { 
+			position: absolute;
+			top: 50%;
+			left: 0;
+			right: 0;
+
+			[class*='owl-']{
+				position: absolute;
+				height: rem(80px);
+				width: rem(80px);
+				background: rgba(255, 255, 255, 0.6);
+				border-radius: 100%;
+				@include flex(center, center, row);
+				
+				&:hover{
+					background: rgba(255, 255, 255, 1);
+				}
+
+				i{
+					&.fa{
+						font-size: rem(40px);
+						color: $second_main_color;
+					}
+				}
+			}
+			.owl-prev{
+				left: rem(40px);
+			}
+
+			.owl-next{
+				right: rem(40px);
+			}
+		}
+	}
+
+	@include media("<md"){
+		display: none
+	}
+}

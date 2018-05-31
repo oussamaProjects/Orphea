@@ -1,0 +1,297 @@
+#page_modele{
+	overflow: hidden;
+	.titre_container{
+		.sous_titre{
+			color: $main_text_color;
+			font-size: rem(15px);
+			font-weight: 500;
+			padding: rem(30px) 0;
+			margin-top: rem(20px);
+			text-transform: uppercase;
+		}
+		.titre{
+			color: $main_color;
+			font-size: rem(35px);
+			font-weight: 700;
+			line-height: rem(52px);
+			position: relative;
+			padding-bottom: rem(25px);
+			margin-bottom: rem(25px);
+			font-family: $font-family-sans-serif-second;
+			&:after{
+				content: "";
+				width: rem(145px);
+				border-bottom: 10px solid $main_color;
+				@include position(absolute, initial, initial, 0, initial );
+			}
+		}
+		.titre_container_text{
+			font-size: 20px;
+			margin-top: -15px;
+		}
+	}
+
+	.main_block{
+		.titre{
+			color: $main_text_color;
+			font-size: rem(60px); 
+			text-align: right;
+			font-family: $font-family-sans-serif-second;
+			line-height: rem(55px);
+			height: 100%;
+			@include flex(flex-end, center, column);
+		}
+		.description{ 
+			color: $main_text_color;
+			font-size: rem(20px); 
+			font-weight: 500;
+			ul{
+				list-style-image: url(./img/list_style_img_rouge.png)
+			}
+		}
+	}
+
+	.page_modele_blocks{
+		position: relative;
+		margin: rem(70px) 0;
+		// padding-bottom: rem(60px);
+		background-color: $main_color;
+		border-top-left-radius: rem(20px);
+		border-bottom-left-radius: rem(20px);
+		.block{
+			padding: rem(70px) rem(45px);
+			color: $white;
+			position: relative;
+			.titre{
+				color: $white;
+				font-size: rem(35px);
+				font-weight: 700;
+				font-family: $font-family-sans-serif-second;
+				position: relative;
+				padding-bottom: rem(30px);
+				margin-bottom: rem(15px); 
+				&:after{
+					content: "";
+					width: rem(145px);
+					border-bottom: 10px solid $white;
+					@include position(absolute, initial, initial, 0, rem(65px) );
+				}
+			}
+			.description{ 
+				color: $white;
+				font-size: rem(15px);
+				line-height: rem(20px);
+				padding-left: rem(135px);
+				font-weight: 500;
+				
+				b,
+				strong{
+					padding: rem(25px) 0;
+					font-size: rem(20px);
+				} 
+			}
+			.quote{
+				color: $white;
+				font-size: rem(15px);
+				padding-left: rem(135px);
+				margin-top: rem(40px);
+				position: relative;
+				&:before{
+					content: "";
+					background-image: url('img/quote_lite.png');
+					height: rem(77px);
+					width: rem(88px);
+					@include position(absolute, initial, initial, 0, rem(20px) );
+
+				}
+			}
+
+
+			ul{
+				list-style-image: url(./img/list_style_img_white.png)
+			}
+
+			&:nth-child(2){
+				color: $text_color;   
+				background-color: $white; 
+				.titre{
+					color: $main_color; 
+					&:after{ 
+						border-color: $main_color; 
+					}
+				}
+				.description{ 
+					color: $text_color;   
+				}
+				.quote{
+					color: $text_color; 
+					&:before{ 
+						background-image: url('img/quote.png'); 
+					}
+				}
+				ul{
+					list-style-image: url(./img/list_style_img_rouge.png)
+				}
+			}
+
+			&:nth-child(3){
+				background-color: $second_main_color; 
+				border-bottom-right-radius: rem(20px);
+				color: $text_color;   
+				margin-top: rem(100px);
+				.titre{
+					color: $main_color; 
+					&:after{ 
+						border-color: $main_color; 
+					}
+				}
+				.description{ 
+					color: $text_color;   
+				}
+				.quote{
+					color: $text_color; 
+
+					&:before{ 
+						background-image: url('img/quote.png'); 
+					}
+				}
+				&:after{
+					content: ""; 
+					@include position(absolute, 0, initial, 0, rem(-3000px) );
+					background-color: $second_main_color; 
+					width: rem(3000px);
+				}
+				ul{
+					list-style-image: url(./img/list_style_img_rouge.png)
+				}
+			}
+
+			&:nth-child(5){
+				color: $text_color;   
+				background-color: $white; 
+				.titre{
+					color: $main_color; 
+					&:after{ 
+						border-color: $main_color; 
+					}
+				}
+				.description{ 
+					color: $text_color;   
+				}
+				.quote{
+					color: $text_color; 
+					&:before{ 
+						background-image: url('img/quote.png'); 
+					}
+				}
+				ul{
+					list-style-image: url(./img/list_style_img_rouge.png)
+				}
+			}
+
+
+			&:nth-child(6){
+				background-color: $second_main_color; 
+				color: $text_color;   
+				border-bottom-right-radius: 0;
+				margin-top: 0;
+				.titre{
+					color: $main_color; 
+					&:after{ 
+						border-color: $main_color; 
+					}
+				}
+				.description{ 
+					color: $text_color;   
+				}
+				.quote{
+					color: $text_color; 
+
+					&:before{ 
+						background-image: url('img/quote.png'); 
+					}
+				}
+				&:after{
+					content: ""; 
+					@include position(absolute, 0, initial, 0, rem(-3000px) );
+					background-color: $second_main_color; 
+					width: rem(3000px);
+				}
+				ul{
+					list-style-image: url(./img/list_style_img_rouge.png)
+				}
+			}
+
+		}
+
+		&:after{
+			content: ""; 
+			@include position(absolute, 0, rem(-3000px), 0, initial );
+			width: rem(3000px);
+			background-color: $main_color; 
+		}
+	}
+
+	@include media("<lg"){
+
+		.titre_container{
+			.sous_titre{  }
+			.titre{ 
+				&:after{
+					content: "";
+					width: rem(145px);
+					border-bottom: 10px solid $main_color;
+					@include position(absolute, initial, initial, 0, 0 );
+				}
+			}
+			.titre_container_text{
+				font-size: 20px;
+				margin-top: -15px;
+			}
+		}
+
+		.main_block{
+			.titre{
+				padding-bottom: rem(25px);
+				font-size: rem(48px); 
+				line-height: rem(50px);
+			}
+			.description{ }
+		}
+
+
+
+
+		.page_modele_blocks{ 
+			margin: rem(20px) 0;  
+			.block{
+				padding: rem(40px) rem(15px);
+				position: relative;
+				.titre{ 
+					font-size: rem(30px);   
+				}
+				.description{  
+					padding-left: rem(0); 
+				}
+				.quote{ 
+					padding-left: rem(20px);
+					margin-top: rem(0px);
+					position: relative;
+					&:before{
+						content: "";
+						background-image: url('img/quote_lite.png');
+						background-size: cover;
+						height: rem(20px);
+						width: rem(23px);
+						@include position(absolute, 6px, initial, initial, rem(-10px) );
+
+					}
+				} 
+
+
+			}
+
+		}
+	}
+
+}

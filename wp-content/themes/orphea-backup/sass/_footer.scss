@@ -1,0 +1,51 @@
+
+footer {
+	
+	color: $white; 
+	background-color: #818183;
+	padding: rem(25px) 0;  
+	
+	
+	.footer_top{
+		.footer_btns{ 
+			@include flex(center, center, row);
+			.btns{
+				padding: 0;
+				margin: 0;
+			}
+		}
+
+		.footer_menus{ 
+			padding: rem(35px) 0;  
+			@include flex(flex-start, space-between, row);
+			.footer_menu{
+				.titre{
+					text-transform: uppercase;
+					font-weight: 700;
+				}
+				ul{
+					list-style-type: none;
+					line-height: rem(16px);
+					padding: 0;
+					margin: 0;
+				}
+			}
+		}
+	}
+
+	.footer_between{
+
+		padding-top: rem(10px);  
+		.footer_description{
+			text-align: justify;
+		}
+	}
+
+	.site-info{
+		@include flex(center, center, row);
+	}
+
+
+
+
+}

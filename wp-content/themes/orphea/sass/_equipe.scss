@@ -1,0 +1,40 @@
+
+/*Equipe
+=============*/
+.equipe{
+  width: 100%;
+  @include flex(center, flex-start, row);
+  flex-wrap: wrap;
+  .eq_membre{
+    margin:rem(20px) rem(60px);
+    text-align: center;
+    color: #fff;
+    min-height: 240px;
+    .eq_img{
+      width: rem(132px);
+      height: rem(132px);
+      border-radius: rem(66px);
+      margin-bottom: rem(15px);
+      overflow: hidden;
+    }
+    .eq_name{
+      font-family: $font-family-sans-serif-second;
+    }
+    .eq_job{
+      font-size: rem(14px);
+      font-weight: 300;
+    }
+
+  }
+  @include media("<lg"){
+
+    @include flex(center, center, row);
+
+  }
+
+  @include media("<md"){
+
+    @include flex(center, center, column);
+
+  }
+}

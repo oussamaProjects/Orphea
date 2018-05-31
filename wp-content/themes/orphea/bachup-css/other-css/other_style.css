@@ -1,0 +1,638 @@
+.eq_name a {
+    color: #fff;
+}
+
+#page_modele .page_modele_blocks .block .chiffres-cles {
+    color: #fff;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+}
+
+#page_modele .page_modele_blocks .block .chiffres-cles b,
+#page_modele .page_modele_blocks .block .chiffres-cles strong {
+    padding: 1.5625rem 0;
+    font-size: 1.25rem;
+}
+
+.owl-stage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+#home_clients #home_clients_slider .owl-nav [class*='owl-'] {
+    height: 4.75rem;
+    width: 2.5rem;
+    background: transparent;
+    border-radius: 100%;
+    position: absolute;
+    top: 3rem;
+    opacity: .5;
+}
+
+#home_clients #home_clients_slider .owl-nav .owl-next {
+    right: -5%;
+}
+
+#home_clients #home_clients_slider .owl-nav .owl-prev {
+    left: -5%;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #D6D6D6;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-dot {
+    cursor: pointer;
+    cursor: hand;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.actus .actualite .news-body.news-type-evenement {
+    background-color: #85175d;
+}
+
+.actus .actualite .news-body.news-type-evenement .news-title,
+.actus .actualite .news-body.news-type-evenement .tags a,
+.actus .actualite .news-body.news-type-evenement .news-date,
+.actus .actualite .news-body.news-type-evenement .share {
+    color: #fff;
+}
+
+.actus .actualite .news-body.news-type-evenement .share .arrow {
+    background-position: bottom;
+}
+
+.top-news-container .small-news-container .small-news.pub .news-footer .titre {
+    font-size: 14px;
+}
+
+#rejoignez-nos-equipes .points-forts,
+#une-equipe-dediee .points-forts {
+    color: #fff;
+    margin-left: 12%;
+}
+
+.pf-icone {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    #une-equipe-dediee .pf-icone {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 6.66667%;
+        flex: 0 0 6.66667%;
+    }
+}
+
+.top-news-container .small-news-container .small-news.actus-box .news-footer .titre {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: initial;
+    padding: 14px 0;
+    font-family: "Amaranth", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.top-news-container .small-news-container .small-news.actus-box .news-footer {
+    height: auto;
+    display: block;
+}
+
+.top-news-container .small-news-container .small-news.actus-box .download_share {
+    padding-bottom: 6px;
+}
+
+.top-news-container .small-news-container .small-news.actus-box .news-header1 {
+    height: 153px;
+}
+
+#page_modele .page_modele_blocks .block {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#page_modele .page_modele_blocks .block:nth-child(odd) {
+    background-position: right;
+}
+
+#page_modele .page_modele_blocks .block:nth-child(even) {
+    background-position: left;
+}
+
+.page-template-template-presse #page_modele .main_block .description {
+    background-color: #3f3f41;
+    color: #fff;
+    padding: 64px 37px 10px 37px;
+    font-size: 15px;
+    height: 100%;
+}
+
+.page-template-template-presse #page_modele .main_block .description h2 {
+    color: #fff;
+    font-family: "Amaranth", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 32px;
+}
+
+.page-template-template-presse #page_modele .main_block {
+    margin-bottom: 98px;
+}
+
+.articles-presse-list .row {
+    padding-top: 30px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #565656;
+}
+
+.articles-presse-list .row:first-child {
+    border-top: 1px solid #565656;
+}
+
+.post-title a {
+    color: #85175d;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.post-title {
+    margin-top: 15px;
+}
+
+.post-date {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.articles-presse-list a.btn.download-btn {
+    color: #84175d;
+    border: 1px solid #84175d;
+    padding: 17px 62px;
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.articles-presse-list {
+    margin-bottom: 92px;
+}
+
+.video-title {
+    color: #85175d;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #d2d2d2;
+    height: 160px;
+    padding: 21px 24px;
+}
+
+img.video-play-icon {
+    margin: auto;
+    position: absolute;
+    top: 4rem;
+    right: 4rem;
+    left: 4rem;
+    cursor: pointer;
+}
+
+.video-thumbnail img.wp-post-image {
+    height: auto;
+    width: 100%;
+}
+
+.video-thumbnail {
+    overflow: hidden;
+    height: 178px;
+}
+
+.videos-block-container {
+    margin-bottom: 107px;
+}
+
+.video-block {
+    margin-bottom: 22px;
+}
+
+.misha_loadmore {
+    padding: 11px 28px;
+    border: 1px solid #84175d;
+    display: inline-block;
+    font-size: 22px;
+    font-style: italic;
+    color: #84175d;
+    cursor: pointer;
+    font-weight: 400;
+    margin: auto;
+}
+
+.load-more-container {
+    text-align: center;
+    margin-bottom: 284px;
+}
+
+.presse-contact-title {
+    color: #881860;
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: "Amaranth", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin-bottom: 38px;
+}
+
+.nom-contact {
+    color: #881860;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: "Amaranth", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.fonction-contact {
+    color: #881860;
+    font-size: .94rem;
+    font-weight: 400;
+    font-family: "Amaranth", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.infos-contact {
+    margin-top: 22px;
+}
+
+a.btn.contact-btn {
+    font-family: "Amaranth", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #881860;
+    font-size: 1.8rem;
+    font-style: italic;
+    border: 1px solid #881860;
+    padding: 24px 124px;
+}
+
+.email-contact {
+    text-align: center;
+}
+
+.main_block .description a.btn.download-btn {
+    font-style: italic;
+    font-weight: 400;
+    padding: 8px 65px;
+    border: 1px solid #fff;
+    color: #fff;
+    bottom: 20px;
+    position: absolute;
+}
+
+.press-contact-box {
+    margin-bottom: 50px;
+}
+
+.full-width-featured-img {
+    overflow: hidden;
+    height: 450px;
+}
+
+.full-width-featured-img img.wp-post-image {
+    width: 100%;
+    height: auto;
+}
+
+.client-case-thumbnail {
+    height: 59%;
+}
+
+ul.social-share-links {
+    list-style-type: none;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 6px;
+    right: 8px;
+    display: none;
+}
+
+ul.social-share-links:hover {
+    display: block;
+}
+
+ul.social-share-links li {
+    float: left;
+    padding: 4px 6px;
+}
+
+.share:hover~ul.social-share-links {
+    display: block;
+}
+
+.eq_img i.fa.fa-linkedin {
+    position: absolute;
+    width: 8.25rem;
+    height: 8.25rem;
+    line-height: 8.25rem;
+    border-radius: 8.25rem;
+    opacity: 0;
+    background-color: #000;
+    display: block;
+}
+
+.eq_img:hover i.fa.fa-linkedin {
+    opacity: .7;
+    color: #fff;
+}
+
+.news-img-container {
+    position: absolute;
+    top: initial;
+    right: 0;
+    bottom: 0;
+    height: 500px;
+    left: initial;
+    z-index: 9;
+    width: 100% !important;
+    max-height: 500px !important;
+    overflow: hidden;
+}
+
+.news_img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: initial;
+    z-index: 9;
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+}
+
+.news.first.home span.type-article {
+    top: 0;
+    left: -57px;
+}
+
+.home span.type-article {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 57px;
+    height: 57px;
+    background-image: url(../img/article.png);
+}
+
+.bandeau .info {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Go_up a img {
+    position: fixed;
+    right: 44px;
+    bottom: 44px;
+    z-index: 11;
+}
+
+.Go_up {
+    display: none;
+}
+
+ul.sub-menu.showAll {
+    overflow-y: auto;
+}
+
+.btn-outline-white {
+    color: #fff;
+    background-image: none;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.btn-outline-white:hover {
+    color: #84175d;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn-en-savoir {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+footer .site-info {
+    text-transform: uppercase;
+}
+
+.pave-icon {
+    text-align: center;
+    margin-top: -3rem;
+}
+
+.client-block-container .client-block .client-logo {
+    padding: 12px;
+}
+
+.client-block-container .client-block .client-logo img.wp-post-image {
+    max-height: 100%;
+    width: auto;
+}
+
+.voir-cas-block a {
+    font-size: 24px;
+    color: #fff;
+    background-color: #84175d;
+    height: 15.625rem;
+    line-height: 15.625rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.875rem;
+    display: block;
+    transition: background-color .5s ease;
+}
+
+.voir-cas-block a:hover {
+    background-color: #450222;
+}
+
+#ajax_loading_icon {
+    color: #85175d;
+}
+
+.top_header .th_btn.th_recherche {
+    display: flex;
+}
+
+
+/* AJAX Search bar style */
+
+#ajaxsearchlite1 {
+    position: absolute;
+    width: 30%;
+    right: 435px;
+    top: 0px;
+    height: 39px;
+    display: none;
+    background-color: #84175d !important;
+    border-bottom: 1px solid #84175d !important;
+}
+
+#ajaxsearchlite1 .probox,
+div[id*="ajaxsearchlite"] .probox {
+    background-color: rgb(133, 23, 93);
+    background-image: -moz-radial-gradient(center, ellipse cover, rgb(133, 23, 93), rgb(133, 23, 93)) !important;
+    background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, rgb(133, 23, 93), rgb(133, 23, 93)) !important;
+    background-image: -webkit-radial-gradient(center, ellipse cover, rgb(133, 23, 93), rgb(133, 23, 93)) !important;
+    background-image: -o-radial-gradient(center, ellipse cover, rgb(133, 23, 93), rgb(133, 23, 93)) !important;
+    background-image: -ms-radial-gradient(center, ellipse cover, rgb(133, 23, 93), rgb(133, 23, 93)) !important;
+    background-image: radial-gradient(ellipse at center, rgb(133, 23, 93), rgb(101, 20, 72)) !important;
+    border: 0px solid rgb(110, 21, 78);
+}
+
+div[id*="ajaxsearchlite"] {
+    background-color: rgb(133, 23, 93) !important;
+    background-image: -moz-radial-gradient(center, ellipse cover, rgb(133, 23, 93), rgb(133, 23, 93)) !important;
+    background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, rgb(133, 23, 93), rgb(133, 23, 93)) !important;
+    background-image: -webkit-radial-gradient(center, ellipse cover, rgb(133, 23, 93), rgb(133, 23, 93)) !important;
+    background-image: -o-radial-gradient(center, ellipse cover, rgb(133, 23, 93), rgb(133, 23, 93)) !important;
+    background-image: -ms-radial-gradient(center, ellipse cover, rgb(133, 23, 93), rgb(133, 23, 93)) !important;
+    background-image: radial-gradient(ellipse at center, rgb(133, 23, 93), rgb(133, 23, 93)) !important;
+    border: 0px none rgb(133, 23, 93) !important;
+}
+
+div[id*="ajaxsearchlite"] .probox .promagnifier {
+    background-color: rgb(133, 23, 93) !important;
+    background-image: -o-linear-gradient(180deg, rgb(133, 23, 93), rgb(133, 23, 93)) !important;
+    background-image: -ms-linear-gradient(180deg, rgb(133, 23, 93), rgb(133, 23, 93)) !important;
+    background-image: -webkit-linear-gradient(180deg, rgb(133, 23, 93), rgb(133, 23, 93)) !important;
+    background-image: linear-gradient(180deg, rgb(133, 23, 93), rgb(120, 21, 85)) !important;
+}
+
+
+/* ======================== */
+
+input#gform_submit_button_5 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 34px;
+    border-color: #fff;
+    color: #fff;
+    font-style: normal;
+}
+
+input#input_5_1 {
+    width: 100%;
+    background-color: #84175d;
+    height: 42px;
+    color: #fff;
+}
+
+a.btn.btn-footer {
+    width: 100%;
+    margin-top: 16px;
+}
+
+input#input_5_1::-webkit-input-placeholder {
+    color: #fcfcfc;
+}
+
+input#input_5_1::-moz-placeholder {
+    color: #fcfcfc;
+}
+
+input#input_5_1:-ms-input-placeholder {
+    color: #fcfcfc;
+}
+
+input#input_5_1:-moz-placeholder {
+    color: #fcfcfc;
+}
+
+.livre_blanc.bandeau {
+    height: 580px;
+}
+
+.livre_blanc.bandeau .info .sous_titre {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+figure.gallery-item {
+    width: 30%;
+    float: right;
+    margin-right: 3%;
+}
+
+ul.top-right-icons {
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+ul.top-right-icons li {
+    float: left;
+    margin-left: 22px;
+}
+
+p#breadcrumbs {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 400;
+    color: #404042;
+    margin-top: 16px;
+    display: inline-block;
+}
+
+p#breadcrumbs a {
+    color: #404042;
+}
+
+.single-post ul.social-share-links {
+    list-style-type: none;
+    padding: 10px 0;
+    position: absolute;
+    top: 2px;
+    right: 140px;
+    bottom: auto;
+    padding-right: 20px;
+    margin-right: -20px;
+}
+
+.single-post ul.social-share-links li {
+    float: left;
+    padding: 4px 6px;
+    margin-left: 0;
+}
+
+#gform_5 .validation_error {
+    display: none;
+}
+
+.gform_wrapper #gform_5 li.gfield.gfield_error.gfield_contains_required div.ginput_container,
+.gform_wrapper #gform_5 li.gfield.gfield_error.gfield_contains_required label.gfield_label {
+    margin-top: 0;
+}
+
+.gform_wrapper.gform_validation_error #gform_5 .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half) {
+    padding-top: 0;
+}
+
+.gform_wrapper #gform_5 li.gfield.gfield_error.gfield_contains_required div.gfield_description {
+    padding-top: 6px;
+    padding-left: 4px;
+}

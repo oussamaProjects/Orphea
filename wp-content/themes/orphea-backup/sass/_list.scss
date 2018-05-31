@@ -1,0 +1,39 @@
+.list{
+	.list_element{
+		padding: rem(15px) 0;
+		p{
+			margin: 0;
+		}
+	}
+}
+
+
+
+
+.communiques{
+	.titre{
+		&.date_filtre{
+			font-size: rem(18px); 
+			padding-top: rem(20px);
+			padding-bottom: rem(5px);
+			margin-bottom: rem(20px);
+			border-bottom: rem(1px) solid $main_color;
+		}
+	}
+		
+	.element{
+		padding-left: 20px;
+		.date{
+			display: block;
+			font-size: rem(10px);
+			font-weight: 500;
+			padding-top: rem(5px);
+			
+		}
+		.pdf-link{
+			font-size: rem(14px);
+			display: block;
+			padding: rem(5px) 0 rem(10px) 0;
+		}
+	}
+}

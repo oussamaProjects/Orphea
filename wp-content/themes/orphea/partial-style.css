@@ -1,0 +1,6 @@
+table.acf-input-table.row_layout > tbody > tr > td { 
+    border-top: 6px solid #971a6b !important;
+}
+table.acf-input-table.row_layout > tbody > tr > td > td { 
+    border-top: 6px solid #000 !important;
+}

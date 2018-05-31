@@ -1,0 +1,83 @@
+.bandeau{
+	position: relative;
+	img{
+		width: 100%;
+	}
+	.info{
+
+		padding: rem(100px) 0;
+		background-color: rgba(0,0,0,.6); 
+		@include position(absolute,0,0,0,0);
+		@include flex(center, center, row);
+
+		.sous_titre{ 
+		}
+		.titre{ 
+		}
+		.description{ 
+		}
+		
+		a{  
+
+		}
+		.image{
+			@include flex(center, center, row);
+			height: 100%;
+		}
+
+	}
+
+
+	&.livre_blanc{ 
+		.titre{  
+		}
+	} 
+
+
+	@include media("<lg"){
+		height: rem(260px);
+		img{
+			height: 100%;
+		}
+		.info{
+			position: relative;
+			.titre{ 
+			}
+			.description{  
+			}
+			a{ 
+			}
+		}
+		&.livre_blanc{
+			height: auto;
+			img{
+				display: none;
+			}
+			.titre{ 
+			}
+		}
+
+	} 
+
+	@include media("<sm"){
+		height: rem(260px);
+		img{
+			height: 100%;
+		}
+		.info{
+			.titre{
+			}
+			.description{
+			}
+			a{
+			}
+		}
+		&.livre_blanc{
+			.titre{ 
+			}
+		}
+
+	} 
+
+}
+

@@ -1,0 +1,91 @@
+form {
+	label{
+		font-size: rem(18px);
+		color: $dark_color;
+		margin-top: rem(20px);
+		text-transform: uppercase;
+		font-weight: 500;
+	}
+	.form-control {
+		color: $lighter_color;
+		font-size: rem(20px);
+		padding: rem(10.5px);
+
+	}
+	.obligatoires{
+		font-weight: 300;
+		font-size: rem(20px);
+		margin-top: rem(30px);
+		color: $second_main_color;
+	}
+}
+
+.btn{
+	cursor:pointer;
+	padding: rem(10px) rem(16px);
+}
+
+.custom-btn{ 
+	@include button-variant($white, transparent, $white);
+}
+
+.content-btn-container{
+	height: rem(78px);
+	.content-btn{
+		@include button-variant($main_color, $white, $main_color);
+		width: rem(460px);
+		height: rem(78px);
+		line-height: rem(78px);
+		font-size: rem(24px);
+		font-weight: 600;
+		padding: 0;
+		z-index: 9;
+		position: absolute;
+		right: rem(-80px);
+		&.left{
+			left: rem(-80px);
+		}
+		&.right{
+			right: rem(-80px);
+		}
+	}
+	@include media("<lg"){
+
+		height: rem(60px);
+		.content-btn{  
+			&.left{
+				left: rem(4px);
+			}
+			&.right{
+				right: rem(4px);
+			}
+		}
+	}
+
+	@include media("<md"){
+
+		height: rem(60px);
+		.content-btn{ 
+			width: 99%;
+			max-width: 99%;
+			height: rem(60px);
+			line-height: rem(60px);
+			font-size: rem(16px);
+			&.left{
+				left: 1%;
+			}
+			&.right{
+				right: 1%;
+			}
+		}
+	}
+}
+
+.btn-footer{ 
+	@include button-variant($white, $main_color, $main_color); 
+}
+
+.postuler-btn{ 
+	@include button-variant($btn-custom-color, $btn-custom-bg, $btn-custom-border);
+}
+

@@ -1,0 +1,45 @@
+#page_modele{
+	&.index{
+		.titre_container{ 
+			padding-top: rem(60px);
+			.titre{ 
+				&:after{
+					content: none; 
+				}
+			}
+		}
+		.chiffre_cles{
+			padding: rem(60px) 0 rem(320px);
+			color: $white;
+			text-align: right;
+			background-color: $main_color; 
+			position: relative;
+
+			.decription{
+				padding-left: rem(40px);
+				font-size: rem(18px); 
+			}
+
+			.chiffres{
+				.chiffre{
+					padding: rem(13px) 0;
+					.titre{
+						font-weight: 700;
+						font-size: rem(47px); 
+						line-height: rem(40px);
+					}
+					.desc_chiffre{
+						font-size: rem(20px); 
+
+					}
+				}
+			}
+			&:after{
+				content: ""; 
+				@include position(absolute, 0, rem(-3000px), 0, initial );
+				width: rem(3000px);
+				background-color: $main_color; 
+			}
+		}
+	}
+}

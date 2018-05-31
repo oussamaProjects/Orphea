@@ -1,0 +1,39 @@
+form {
+	label{
+		font-size: rem(18px);
+		color: $dark_color;
+		margin-top: rem(20px);
+		text-transform: uppercase;
+		font-weight: 500;
+	}
+	.form-control {
+		color: $lighter_color;
+		font-size: rem(20px);
+		padding: rem(10.5px);
+		 
+	}
+	.obligatoires{
+		font-weight: 300;
+		font-size: rem(20px);
+		margin-top: rem(30px);
+		color: $second_main_color;
+	}
+}
+
+.btn{
+	cursor:pointer;
+	padding: rem(10px) rem(16px);
+}
+
+.custom-btn{ 
+	@include button-variant($white, transparent, $white);
+}
+
+.btn-footer{ 
+	@include button-variant($white, $main_color, $main_color); 
+}
+
+.postuler-btn{ 
+	@include button-variant($btn-custom-color, $btn-custom-bg, $btn-custom-border);
+}
+

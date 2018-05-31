@@ -1,0 +1,165 @@
+
+.main-navigation{
+	z-index: 100;
+	color: $white;
+	display: none;
+	position: relative;
+	@include position(absolute, rem(77px), initial, initial, 0);
+	.menu-menu-1-container{
+		background-color: $main_color;
+		padding: rem(10px) rem(0) rem(20px);
+		ul{
+			width: rem(320px);
+			margin: 0;
+			padding: 0 rem(70px);
+			list-style-type: none;
+			z-index: 999;
+			li{
+				a{
+					color: $white;
+					text-transform: uppercase;
+					padding: rem(20px) 0;
+					display: block;
+					font-weight: 500;
+					font-size: rem(18px);
+					position: relative;
+					@include transition();
+					.menu-item-description{
+						font-weight: 400;
+						font-style: italic;
+						font-size: rem(12px);
+						text-transform: none;
+						line-height: rem(15px);
+						display: block;
+						padding: rem(2px) 0;
+					}
+				}  
+
+				ul{
+					z-index: 999;
+					background-color: $dark_color;
+					@include position(absolute, 0, initial, 0, rem(320px));
+					display: none;
+					&.showAll{
+						display: block;
+					}
+					li {
+						padding: rem(32px) 0;
+						a{
+							color: #fff;
+							text-transform: uppercase;
+							padding: 0;
+							font-weight: 500;
+							font-size: rem(15px);
+							line-height: rem(15px); 
+						}
+
+					}
+				}
+
+
+				&._show_li{
+					&>a{
+						&:after{
+							z-index: 1000;
+							content: "";
+							@include position(absolute, 50% , rem(-130px), initial, rem(190px))
+							border-top: rem(5px) solid #fff;
+							margin-top: rem(-2.5px);
+						}
+					}
+				}
+
+				&.current-menu-parent{
+					&>a{
+						font-size: rem(30px);
+						font-weight: 700;
+					}
+					.current_page_item{
+						a{
+							font-size: rem(22px);
+							line-height: rem(22px);
+							font-weight: 700;
+						}
+					}
+
+				}
+			}
+		}
+	}
+
+	@include media("<lg"){
+		@include position(absolute, rem(60px), initial, initial, 0);
+		.menu-menu-1-container{ 
+			ul{ 
+				padding: 0 rem(60px); 
+				overflow: hidden;
+				li{ 
+
+					ul{  
+						padding: rem(16px) rem(70px);
+						@include position(relative, initial, initial, initial, rem(-60px));  
+						li {
+							padding: rem(16px) 0;
+						}
+					}
+
+
+					&._show_li{
+						&>a{
+							&:after{ 
+								content: none; 
+							}
+						}
+					}
+
+
+				}
+			}
+		}
+	}
+}
+
+
+
+#menu_burger{
+	&.menu_icon {
+		width: rem(77px);
+		height: rem(77px);
+		overflow: hidden;   
+		cursor: pointer; 
+		padding: rem(20px) rem(10px);
+		position: relative;
+		background-color: $main_color;
+		span {
+
+			@include transition(all, .3s, ease-in-out);
+			display: block;
+			width: 100%; 
+			height: rem(6px); 
+			background: $white;;
+
+			&.menu_1 {    margin-top: rem(0px);}
+			&.menu_2 {    margin-top: rem(9px);}
+			&.menu_3 {    margin-top: rem(9px);}
+
+		}
+		&.open{
+			span{
+				&.menu_1 { 	transform: translateX(0px) translateY(15px) rotate(45deg);}
+				&.menu_2 {	display: none;}
+				&.menu_3{ 	transform: translateX(-2px) translateY(0px) rotate(-45deg);}
+			}
+		}
+		@include media("<lg"){
+			display: block; 
+			height: rem(60px); 
+			padding: rem(12px) rem(6px);
+		}
+	}	
+}
+
+
+
+
+

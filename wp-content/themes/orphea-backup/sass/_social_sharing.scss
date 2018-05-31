@@ -1,0 +1,32 @@
+
+
+// PARTAGE
+
+.partage{
+    padding: rem(30px) 0 rem(40px);
+    margin-top: rem(40px);
+    text-align: center;
+    border-top: 1px solid $lighter_color;
+    border-bottom: 1px solid $lighter_color;
+    .titre{
+        font-size: rem(30px);
+        color: $second_main_color;
+        margin-bottom: rem(30px);
+    }
+    i.fa{
+        margin: 0 rem(6px);
+    }
+    .btn{
+        margin: 0 rem(15px);
+        border-radius: rem(4px);
+    }
+    .btn-facebook{
+        @include button-variant(#3b5998, $btn-custom-bg, #3b5998);
+    }
+    .btn-twitter{
+        @include button-variant(#429cd6, $btn-custom-bg, #429cd6);
+    }
+    .btn-googleplus{
+        @include button-variant(#df4b37, $btn-custom-bg, #df4b37);
+    }
+}

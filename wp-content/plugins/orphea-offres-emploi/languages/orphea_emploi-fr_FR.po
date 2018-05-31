@@ -1,0 +1,458 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Orphéa - Offres d'emploi\n"
+"POT-Creation-Date: 2017-11-06 18:21+0100\n"
+"PO-Revision-Date: 2017-11-06 18:21+0100\n"
+"Last-Translator: \n"
+"Language-Team: Magina <alexis@magina.fr>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_n;_x:1,2c;_ex;_nx;esc_attr__;esc_attr_e;"
+"esc_attr_x;esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/inc-custom-post-type.php:12
+msgctxt "Post Type General Name"
+msgid "Jobs"
+msgstr "Offres d'emploi"
+
+#: inc/inc-custom-post-type.php:13
+msgctxt "Post Type Singular Name"
+msgid "Job Offer"
+msgstr "Offre d'emploi"
+
+#: inc/inc-custom-post-type.php:14 inc/inc-custom-post-type.php:16
+msgid "Jobs"
+msgstr "Offres d'emploi"
+
+#: inc/inc-custom-post-type.php:15
+msgid "Job Offer"
+msgstr "Offre d'emploi"
+
+#: inc/inc-custom-post-type.php:17
+msgid "Job Attributes"
+msgstr "Informations de l'offre"
+
+#: inc/inc-custom-post-type.php:18
+msgid "Parent Job:"
+msgstr "Offre parente :"
+
+#: inc/inc-custom-post-type.php:19
+msgid "All Jobs"
+msgstr "Toutes les offres"
+
+#: inc/inc-custom-post-type.php:20
+msgid "Add New Job"
+msgstr "Ajouter nouvelle offre"
+
+#: inc/inc-custom-post-type.php:21
+msgid "Add Job"
+msgstr "Ajouter une offre"
+
+#: inc/inc-custom-post-type.php:22
+msgid "New Job"
+msgstr "Nouvelle offre"
+
+#: inc/inc-custom-post-type.php:23
+msgid "Edit Job"
+msgstr "Modifier l'offre"
+
+#: inc/inc-custom-post-type.php:24
+msgid "Update Job"
+msgstr "Mettre à jour l'offre"
+
+#: inc/inc-custom-post-type.php:25
+msgid "View Job"
+msgstr "Voir l'offre"
+
+#: inc/inc-custom-post-type.php:26
+msgid "View Jobs"
+msgstr "Voir les offres"
+
+#: inc/inc-custom-post-type.php:27
+msgid "Search Job"
+msgstr "Chercher une offre d'emploi"
+
+#: inc/inc-custom-post-type.php:28
+msgid "Not found"
+msgstr "Aucune trouvée"
+
+#: inc/inc-custom-post-type.php:29
+msgid "Not found in Trash"
+msgstr "Aucune trouvée dans la corbeille"
+
+#: inc/inc-custom-post-type.php:30
+msgid "Featured Image"
+msgstr "Image à la Une"
+
+#: inc/inc-custom-post-type.php:31
+msgid "Set featured image"
+msgstr "Mettre une image à la Une"
+
+#: inc/inc-custom-post-type.php:32
+msgid "Remove featured image"
+msgstr "Retirer l’image mise en avant"
+
+#: inc/inc-custom-post-type.php:33
+msgid "Use as featured image"
+msgstr "Utiliser comme image à la Une"
+
+#: inc/inc-custom-post-type.php:34
+msgid "Insert into job"
+msgstr "Ajouter à l'offre d'emploi"
+
+#: inc/inc-custom-post-type.php:35
+msgid "Uploaded to this job"
+msgstr "Mis en ligne sur cette offre d'emploi"
+
+#: inc/inc-custom-post-type.php:36
+msgid "Jobs list"
+msgstr "Liste des offres d'emploi"
+
+#: inc/inc-custom-post-type.php:37
+msgid "Jobs list navigation"
+msgstr "Navigation parmi les offres d'emploi"
+
+#: inc/inc-custom-post-type.php:38
+msgid "Filter jobs list"
+msgstr "Filtrer la liste des offres d'emploi"
+
+#: inc/inc-custom-post-type.php:41
+msgid "Job offer"
+msgstr "Offre d'emploi"
+
+#: inc/inc-custom-post-type.php:42
+msgid "Manage All Job offer"
+msgstr "Gestion de toutes les offres d'emploi"
+
+#: inc/inc-custom-post-type.php:75
+msgid "Number of Applications"
+msgstr "Nombre de candidatures"
+
+#: inc/inc-metaboxes.php:64
+msgid "Candidatures"
+msgstr "Candidatures"
+
+#: inc/inc-shortcode.php:14
+msgid "Didn't find any listings that match your type?"
+msgstr "Vous n'avez pas trouvé d'offre correspondant à votre profil ? "
+
+#: inc/inc-shortcode.php:17
+msgid "Spontanous Application"
+msgstr "Candidature spontanée"
+
+#: inc/inc-shortcode.php:45
+msgid "Apply"
+msgstr "Postuler"
+
+#~ msgid "You didn't find any job offer corresponding to your profile?"
+#~ msgstr "Vous n'avez pas trouvé d'offre correspondant à votre profil ?"
+
+#~ msgid "View Job offer"
+#~ msgstr "Voir l'offre"
+
+#~ msgid "jobs"
+#~ msgstr "recrutement"
+
+#~ msgid "Settings :"
+#~ msgstr "Paramètres : "
+
+#~ msgid "Job Agreement type : "
+#~ msgstr "Type de contat :"
+
+#~ msgid "CDI"
+#~ msgstr "CDI"
+
+#~ msgid "CDD"
+#~ msgstr "CDD"
+
+#~ msgid "Select an Job Agreement type"
+#~ msgstr "Sélectionner un type de poste"
+
+#~ msgid "Email"
+#~ msgstr "E-mail"
+
+#~ msgid "Type"
+#~ msgstr "Type de contrat"
+
+#~ msgid "Parent Candidature:"
+#~ msgstr "Candidature parente :"
+
+#~ msgid "All Candidatures"
+#~ msgstr "Toutes les Candidatures"
+
+#~ msgid "View Candidature"
+#~ msgstr "Voir la candidature"
+
+#~ msgid "Add Candidature"
+#~ msgstr "Ajouter une candidature"
+
+#~ msgid "Edit Candidature"
+#~ msgstr "Modifier la candidature"
+
+#~ msgid "Update Candidature"
+#~ msgstr "Mettre à jour la candidature"
+
+#~ msgid "Search Candidature"
+#~ msgstr "Chercher une candidature"
+
+#~ msgid "candidature"
+#~ msgstr "candidature"
+
+#~ msgid "Manage All Françoise candidatures"
+#~ msgstr "Gestion de toutes les candidatures"
+
+#~ msgid "Photo"
+#~ msgstr "Photo"
+
+#~ msgid "Candidature :"
+#~ msgstr "Candidature : "
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "About the candidat"
+#~ msgstr "A propos du candidat"
+
+#~ msgid "Scoring grid"
+#~ msgstr "Grille de notation"
+
+#~ msgid "Comments"
+#~ msgstr "Commentaires"
+
+#~ msgid "Address : "
+#~ msgstr "Adresse : "
+
+#~ msgid "Phone number : "
+#~ msgstr "Téléphone : "
+
+#~ msgid "Website : "
+#~ msgstr "Site web : "
+
+#~ msgid "Social Networks : "
+#~ msgstr "Réseaux sociaux : "
+
+#~ msgid "School : "
+#~ msgstr "Ecole : "
+
+#~ msgid "Student Number : "
+#~ msgstr "Numéro étudiant : "
+
+#~ msgid "Edit User"
+#~ msgstr "Modifier l'utilisateur"
+
+#~ msgid "See public page"
+#~ msgstr "Voir la page publique"
+
+#~ msgid "Criterion"
+#~ msgstr "Critères"
+
+#~ msgid "Note"
+#~ msgstr "Note"
+
+#~ msgid "Update Rating"
+#~ msgstr "Mettre à jour la notation"
+
+#~ msgid "Artistic"
+#~ msgstr "Artistique"
+
+#~ msgid "Technic"
+#~ msgstr "Technique"
+
+#~ msgid "Portfolio"
+#~ msgstr "Portfolio"
+
+#~ msgid "Project Creation"
+#~ msgstr "Création du projet"
+
+#~ msgid "Network Dynamics"
+#~ msgstr "Dynamique Réseau"
+
+#~ msgid "Partners"
+#~ msgstr "Partenaires"
+
+#~ msgid "Parent Partner:"
+#~ msgstr "Partenaire Parent :"
+
+#~ msgid "All Partners"
+#~ msgstr "Tous les partenaires"
+
+#~ msgid "View Partner"
+#~ msgstr "Voir le partenaire"
+
+#~ msgid "Add Partner"
+#~ msgstr "Ajouter un partenaire"
+
+#~ msgid "Edit Partner"
+#~ msgstr "Modifier le partenaire"
+
+#~ msgid "Update Partner"
+#~ msgstr "Mettre à jour le partenaire"
+
+#~ msgid "Search Partner"
+#~ msgstr "Chercher un partenaire"
+
+#~ msgid "partner"
+#~ msgstr "Partenaire"
+
+#~ msgid "Manage All Françoise Partners"
+#~ msgstr "Gère tous les partenaires Françoise"
+
+#~ msgid "Partners :"
+#~ msgstr "Partenaires :"
+
+#~ msgid "Partenaires"
+#~ msgstr "Partenaires"
+
+#~ msgid "Parent Partenaire:"
+#~ msgstr "Partenaire parent :"
+
+#~ msgid "All Partenaires"
+#~ msgstr "Tous les partenaires"
+
+#~ msgid "View Partenaire"
+#~ msgstr "Voir le partenaire"
+
+#~ msgid "Add Partenaire"
+#~ msgstr "Ajouter un partenaire"
+
+#~ msgid "Edit Partenaire"
+#~ msgstr "Modifier le partenaire"
+
+#~ msgid "Update Partenaire"
+#~ msgstr "Mettre à jour le partenaire"
+
+#~ msgid "Search Partenaire"
+#~ msgstr "Chercher un partenaire"
+
+#~ msgid "partenaire"
+#~ msgstr "partenaire"
+
+#~ msgid "Manage All Uvol Partenaires"
+#~ msgstr "Gère les partenaires"
+
+#~ msgid "Types"
+#~ msgstr "Types"
+
+#~ msgid "All Types"
+#~ msgstr "Tous les types"
+
+#~ msgid "Parent Type"
+#~ msgstr "Type parent"
+
+#~ msgid "Parent Type:"
+#~ msgstr "Type parent :"
+
+#~ msgid "New Type"
+#~ msgstr "Nouveau type"
+
+#~ msgid "Add New Type"
+#~ msgstr "Ajouter nouveau type"
+
+#~ msgid "Edit Type"
+#~ msgstr "Modifier le type"
+
+#~ msgid "Update Type"
+#~ msgstr "Mettre à jour le type"
+
+#~ msgid "Separate Types with commas"
+#~ msgstr "Séparer les types avec des virgules"
+
+#~ msgid "Search Types"
+#~ msgstr "Chercher un type de partenaire"
+
+#~ msgid "Add or remove Types"
+#~ msgstr "Ajouter ou supprimer des types"
+
+#~ msgid "Choose from the most used Types"
+#~ msgstr "Choisir parmi les types les plus utilisés"
+
+#~ msgid "Not Found"
+#~ msgstr "Aucune trouvée"
+
+#~ msgid "Products"
+#~ msgstr "Produits"
+
+#~ msgid "Parent Product:"
+#~ msgstr "Produit parent:"
+
+#~ msgid "All products"
+#~ msgstr "Tous les produits"
+
+#~ msgid "View Product"
+#~ msgstr "Voir le produit"
+
+#~ msgid "Add New Product"
+#~ msgstr "Ajouter nouveau produit"
+
+#~ msgid "Edit Product"
+#~ msgstr "Modifier le produit"
+
+#~ msgid "Update Product"
+#~ msgstr "Mettre à jour le produit"
+
+#~ msgid "Search Product"
+#~ msgstr "Chercher un produit"
+
+#~ msgid "Produit"
+#~ msgstr "Produit"
+
+#~ msgid "Used to manage all the products"
+#~ msgstr "Utilisé pour gérer les produits Greenfluid."
+
+#~ msgid "Brands"
+#~ msgstr "Marques"
+
+#~ msgid "All brands"
+#~ msgstr "Toutes les marques"
+
+#~ msgid "Parent brand"
+#~ msgstr "Marque parente"
+
+#~ msgid "Parent brand:"
+#~ msgstr "Marque parente :"
+
+#~ msgid "Add New brand"
+#~ msgstr "Ajouter nouvelle marque"
+
+#~ msgid "Edit brand"
+#~ msgstr "Modifier la marque"
+
+#~ msgid "Update brand"
+#~ msgstr "Mettre à jour la marque"
+
+#~ msgid "Search brand"
+#~ msgstr "Chercher une marque"
+
+#~ msgid "Categories"
+#~ msgstr "Catégories"
+
+#~ msgid "New category"
+#~ msgstr "Nouvelle catégorie"
+
+#~ msgid "Add New category"
+#~ msgstr "Ajouter nouvelle catégorie"
+
+#~ msgid "Separate categories with commas"
+#~ msgstr "Séparer les catégories avec des virgules"
+
+#~ msgid "Add or remove categories"
+#~ msgstr "Ajouter ou supprimer des catégories"
+
+#~ msgid "Choose from the most used categories"
+#~ msgstr "Choisir parmi les catégories les plus utilisées"
+
+#~ msgid "Home Blocs"
+#~ msgstr "Blocs Accueil"
+
+#~ msgid "All home blocs"
+#~ msgstr "Tous les blocs de page d'accueil"
+
+#~ msgid "homebloc"
+#~ msgstr "Bloc Accueil"

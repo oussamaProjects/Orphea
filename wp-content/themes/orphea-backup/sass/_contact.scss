@@ -1,0 +1,43 @@
+#contact{
+	padding: rem(40px) 0;
+	font-family: $font-family-sans-serif-second ;
+	.box{
+
+		margin: rem(20px) 0;
+		i.fa{
+			color: $second-main-color; 
+		}
+		.titles { 
+			font-size: rem(18px);
+			font-weight: 600;
+			margin-bottom: rem(10px); 
+			color: $main-color;
+		} 
+		.adresse{
+			margin: 10px 0;
+			font-size: rem(14px);
+			i.fa{
+				margin-top: rem(4px);
+				margin-right: rem(6px);
+				float: left;
+			}
+
+			.element{
+				float: left;
+				width: rem(320px);
+			}
+		}  
+		.phone{
+			margin: rem(10px) 0;
+			font-size: rem(14px);
+			clear: both;
+			i.fa{
+				color: $second-main-color;
+				margin-right: rem(6px);
+			}
+		} 
+	} 
+	.form-control{
+		margin-bottom: rem(26px);
+	}
+}

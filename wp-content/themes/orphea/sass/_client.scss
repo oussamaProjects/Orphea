@@ -1,0 +1,101 @@
+.clients-cat-links {
+
+    @include flex(center, center, row);
+    flex-wrap: wrap;
+    margin-bottom: rem(50px);
+
+    a {
+        font-weight: 600;
+        font-style: italic;
+        border: 1px solid #84175d;
+        padding: 11px 14px;
+        color: #84175d;
+        margin: rem(10px) rem(6px);
+        &:hover, 
+        &.active {
+            background-color: #84175d;
+            color: #fff;
+        }
+    }
+}
+
+
+.client-block-container{
+
+    .client-block {
+        height: rem(250px);
+        border: 1px solid #bfbfbf;
+        margin-bottom: rem(30px);
+
+        .client-logo {
+            text-align: center;
+            height: 86%;
+            line-height: 200px;
+        }
+
+        .client-links{
+            text-align: center;
+
+            a{
+                font-weight: 600;
+                font-style: italic;
+                color: #84175d;
+                font-size: rem(14px);
+            }
+        }
+    }
+
+}
+
+
+.client-case-block {
+    height: 444px;
+
+    .client-case-link{
+        display: block;
+        background-color: #d2d2d2;
+        height: 28%;
+        padding: 16px 24px;
+        text-transform: uppercase;
+        font-size: 25px;
+        color: #6b2a52;
+        font-weight: 600;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;
+
+        &:hover{
+            background-color: #6b2a52;
+            color: #ffffff;
+        }
+    }
+
+
+    .client-case-thumbnail {
+        height: 72%;
+        overflow: hidden;
+        img{
+            &.wp-post-image {
+                width: 100%;
+            }
+        }
+
+    }
+    @include media("<lg"){
+        height: auto !important;
+        .client-case-link{ 
+            padding: 10px;
+        }
+
+    }
+}
+
+.client-cases-block-container{
+    margin-bottom: 26px;
+}
+
+.nopadding{
+    padding: 0 !important;
+}

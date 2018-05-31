@@ -1,0 +1,161 @@
+
+#masthead{ 
+	background-color: $second_main_color;
+	.slider{
+		height: 100%;
+		width: 100%;
+	}
+
+	.menu_logo_container{
+		z-index: 99;
+		max-width: 100%;
+		@include position(absolute, 0, initial, initial, 0);
+		width: rem(320px);
+		height: rem(77px);
+		background-color: $white;
+		border-bottom-right-radius: rem(20px);
+		@include flex(flex-start, flex-start, row);
+		
+		.logo{
+			position: relative;
+			width: rem(240px);
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			img{
+				height: 100%;
+			}
+		}
+	}
+
+	.citation{
+		z-index: 99;
+		@include position(absolute, rem(77px), initial, initial, rem(77px));
+		max-width: 100%;
+		width: rem(620px); 
+		padding: rem(30px);
+		background-color: rgba(133, 23, 93, .8);
+		color: $white;
+		border-bottom-right-radius: rem(20px);
+		.bredcrumb{
+			font-size: rem(12.5px);  
+			line-height: rem(15.5px);
+			font-weight: 700;
+			font-family: $font-family-sans-serif;
+		}
+		.titre{
+			font-size: rem(42.5px);  
+			line-height: rem(45.5px);
+			padding: rem(20px) 0;
+			font-weight: 700;
+			font-family: $font-family-sans-serif-second;
+		} 
+	}
+
+	.top_header{
+		width: 31rem;
+
+		height: 2.500rem; 
+		@include flex(flex-start, center, row);
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 999;
+
+
+		.th_btn{
+			position: relative;
+			background: #85175d;
+			height: rem(35px);
+			padding: 0.625rem;
+			margin-left: 0.313rem;
+			font-size: 0.750rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			display: flex;
+			justify-content: flex-end;
+			align-items:center;
+			a:hover{
+				color: #fff;
+				cursor: pointer;
+			}
+
+
+			&.th_recherche{
+				width: 7.500rem;
+				&::before{
+					content: url(img/loupe.png);
+					position: absolute;
+					top: 0.500rem;
+					left: 0.625rem;
+				}
+			}
+			&.th_contact{
+				width: 7.500rem;
+
+				&::before{
+					content: url(img/contact.png);
+					position: absolute;
+					top: 0.500rem;
+					left: 0.625rem;
+				}
+			}
+
+			&.th_actus{
+				width: 90px;
+				&::before{
+					content: url(img/actu.png);
+					position: absolute;
+					top: 0.500rem;
+					left: 0.625rem;
+				}
+			}
+			&.th_demo{
+				width: 90px;
+				&::before{
+					content: url(img/demo.png);
+					position: absolute;
+					top: 6px;
+					left: 0.625rem;
+				}
+			}
+		} 
+	}
+
+
+	@include media("<lg"){
+		min-height: auto; 
+		background-color: $white;
+
+		.menu_logo_container{ 
+			height: rem(60px);
+			width: rem(220px);
+			.logo{
+				width: 100%;
+				padding: 0px rem(15px);
+			}
+		}
+
+
+		.page_slider{
+			padding-top: rem(60px);
+		}
+		.top_header{ 
+			height: auto;
+			width: auto;
+			@include flex(flex-end, flex-start, column);
+			.th_btn{
+				width: rem(120px) !important;
+			} 
+		}
+
+	}
+}
+
+
+
+/*Header
+==============*/
+
+
